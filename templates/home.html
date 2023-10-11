@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dataframe Example</title>
+  </head>
+  <body>
+    <h1>Dataframe Example</h1>
+    {% for table in tables %}
+        {{ table|safe }}
+    {% endfor %}
+  </body>
+</html>
